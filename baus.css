@@ -1,0 +1,36 @@
+body {
+    background-color: #acacac;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+h1 {
+    color: #ad0000;
+    font-size: 60px;
+}
+
+h2 {
+    color: #ad0000;
+    font-size: 48px;
+}
+
+h3 {
+    color: #ad0000;
+    font-size: 32px;
+}
+
+h4 {
+    color: #ad0000;
+    font-size: 18px;
+}
+
+p {
+    color: #ad0048;
+}
+
+section {
+    background-color: #dddddd;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+}
