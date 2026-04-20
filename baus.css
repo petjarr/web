@@ -34,3 +34,32 @@ section {
     border-radius: 10px;
     padding: 20px;
 }
+
+a {
+    color:#008800;
+}
+
+a:hover {
+    color:#00ff00
+}
+
+a:visited {
+    color: #818181;
+}
+
+button {
+    background-color: #008800;
+    color:#ffffff;
+}
+
+button:hover {
+    background-color: #00ff00;
+}
+
+form:focus {
+    background-color: #f3ffae;
+}
+
+li:last-child {
+    font-style: italic;
+}
