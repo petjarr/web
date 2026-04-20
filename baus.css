@@ -7,25 +7,30 @@ body {
 h1 {
     color: #ad0000;
     font-size: 60px;
+    font-family: "otsikko";
 }
 
 h2 {
     color: #ad0000;
     font-size: 48px;
+    font-family: "otsikko";
 }
 
 h3 {
     color: #ad0000;
     font-size: 32px;
+    font-family: "otsikko";
 }
 
 h4 {
     color: #ad0000;
     font-size: 18px;
+    font-family: "otsikko";
 }
 
 p {
     color: #ad0048;
+    font-family: "leipäteksti";
 }
 
 section {
@@ -37,6 +42,7 @@ section {
 
 a {
     color:#008800;
+    font-family: "leipäteksti";
 }
 
 a:hover {
@@ -62,4 +68,15 @@ form:focus {
 
 li:last-child {
     font-style: italic;
+}
+
+@font-face {
+  font-family: "leipäteksti";
+  src: url("./Quintessential/Quintessential-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "otsikko";
+  src: url("./Lugrasimo/Lugrasimo-Regular.ttf");
+  font-weight: bold;
 }
